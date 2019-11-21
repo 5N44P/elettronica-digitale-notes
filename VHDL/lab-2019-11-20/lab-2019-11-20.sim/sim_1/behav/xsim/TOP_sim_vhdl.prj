@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../lab-2019-11-20.srcs/sources_1/new/FIFO.vhd" \
-"../../../../lab-2019-11-20.srcs/sim_1/new/TOP_sim.vhd" \
-
-# Do not sort compile order
-nosort
