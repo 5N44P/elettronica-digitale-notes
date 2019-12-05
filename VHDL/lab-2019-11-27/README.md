@@ -26,3 +26,12 @@ ingresso sincrono al clock che pilota tutta la macchina.
 
 #### Macchina di Mealy
 ![mealy_diagram](graph_mealy.png)
+
+#### Codifica degli stati
+| Stato   | Codifica int |
+|:--------|:-------------|
+| Start   | 0            |
+| Last_0  | 1            |
+| Last_1  | 2            |
+| Rising  | 3            |
+| Falling | 4            |
