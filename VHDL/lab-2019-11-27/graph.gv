@@ -1,0 +1,11 @@
+digraph edge_detector_fsm {
+	rankdir=LR;	size="8,5"
+	node [shape = doublecircle]; "Start";
+	node [shape = circle];
+	Start -> Last_0 [ label = "0/00" ];
+	Start -> Last_1 [ label = "1/00" ];
+	Last_0 -> Last_0 [ label = "0/00" ];
+	Last_0 -> Last_1 [ label = "1/01 rising" ];
+	Last_1 -> Last_0 [ label = "0/10 falling" ];
+	Last_1-> Last_1 [ label = "1/00" ];
+}
