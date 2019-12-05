@@ -1,4 +1,4 @@
-digraph edge_detector_fsm {
+digraph edge_detector_mealy {
 	rankdir=LR;	size="8,5"
 	node [shape = doublecircle]; "Start";
 	node [shape = circle];

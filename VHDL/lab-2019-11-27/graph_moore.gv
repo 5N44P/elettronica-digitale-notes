@@ -1,0 +1,15 @@
+digraph edge_detector_moore {
+	rankdir=LR;	size="8,5"
+	node [shape = doublecircle]; "Start";
+	node [shape = circle];
+	Start-> Last_0 [ label = "0" ];
+	Start -> Last_1 [ label = "1" ];
+        "Rising\n01" -> "Falling\n10" [ label = "0" ];
+        "Falling\n10" -> "Rising\n01" [ label = "1" ];
+        Last_0 -> "Rising\n01"  [ label = "1" ];
+        Last_0 -> Last_0  [ label = "0" ];
+        "Rising\n01" -> Last_1  [ label = "1" ];
+        Last_1 -> "Falling\n10"  [ label = "0" ];
+        Last_1 -> Last_1  [ label = "1" ];
+        "Falling\n10" -> Last_0  [ label = "0" ];
+}
