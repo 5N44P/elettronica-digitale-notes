@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="74700001fs"></ZoomEndTime>
+      <Cursor1Time time="53700000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="109"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/top_sim/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/input_a" type="array">
+      <obj_property name="ElementShortName">input_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/input_b" type="array">
+      <obj_property name="ElementShortName">input_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/input_c" type="array">
+      <obj_property name="ElementShortName">input_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/input_a_integer" type="other">
+      <obj_property name="ElementShortName">input_a_integer</obj_property>
+      <obj_property name="ObjectShortName">input_a_integer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/input_b_integer" type="other">
+      <obj_property name="ElementShortName">input_b_integer</obj_property>
+      <obj_property name="ObjectShortName">input_b_integer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/input_c_integer" type="other">
+      <obj_property name="ElementShortName">input_c_integer</obj_property>
+      <obj_property name="ObjectShortName">input_c_integer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/result_integer" type="other">
+      <obj_property name="ElementShortName">result_integer</obj_property>
+      <obj_property name="ObjectShortName">result_integer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/interleaving_select" type="logic">
+      <obj_property name="ElementShortName">interleaving_select</obj_property>
+      <obj_property name="ObjectShortName">interleaving_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg2" type="array">
+      <obj_property name="ElementShortName">pipelinereg2[0:2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">pipelinereg2[0:2][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg3[0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">M1_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg3[1]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">M1_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg4[0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">M2_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg4[1]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">M2_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">MUX_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">MUX_2</obj_property>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg1[1][0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/adder_in" type="array">
+      <obj_property name="ElementShortName">adder_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_in[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/esercizio_4_inst/pipelinereg2[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
