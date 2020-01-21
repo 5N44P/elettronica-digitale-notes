@@ -48,11 +48,11 @@ architecture Behavioral of MegaOperation is
 type pipelinereg_t is array (0 to 2) of unsigned(31 DOWNTO 0);
 
     signal interleaving_reg : pipelinereg_t := (Others => (Others => 'U'));
-    signal pipelinereg1 : pipelinereg_t ;
-    signal pipelinereg2 : pipelinereg_t ;
-    signal pipelinereg3 : pipelinereg_t ;
-    signal pipelinereg4 : pipelinereg_t ;
-    signal pipelinereg5 : pipelinereg_t ;
+    signal pipelinereg1 : pipelinereg_t := (Others => (Others => 'U'));
+    signal pipelinereg2 : pipelinereg_t := (Others => (Others => 'U'));
+    signal pipelinereg3 : pipelinereg_t := (Others => (Others => 'U'));
+    signal pipelinereg4 : pipelinereg_t := (Others => (Others => 'U'));
+    signal pipelinereg5 : pipelinereg_t := (Others => (Others => 'U'));
     signal adder_in : unsigned(31 DOWNTO 0) := (Others => 'U');
     signal interleaving_select : std_logic := '0';
     
@@ -110,7 +110,8 @@ begin
             pipelinereg4(0) <= unsigned(input_a);
             pipelinereg4(1) <= unsigned(input_b);
             when others =>
-            
+            pipelinereg3(0) <= unsigned(input_a);
+            pipelinereg3(1) <= unsigned(input_b);
         end case;
         
         pipelinereg2(2) <= pipelinereg2(1);
