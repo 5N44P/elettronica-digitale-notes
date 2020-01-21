@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jan 21 10:20:03 2020
+# Process ID: 27548
+# Current directory: C:/Users/valer/DriveVero/Politecnico/Elettronica Digitale/VHDL/lab-2019-11-20
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent45236 C:\Users\valer\DriveVero\Politecnico\Elettronica Digitale\VHDL\lab-2019-11-20\lab-2019-11-20.xpr
+# Log file: C:/Users/valer/DriveVero/Politecnico/Elettronica Digitale/VHDL/lab-2019-11-20/vivado.log
+# Journal file: C:/Users/valer/DriveVero/Politecnico/Elettronica Digitale/VHDL/lab-2019-11-20\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/valer/DriveVero/Politecnico/Elettronica Digitale/VHDL/lab-2019-11-20/lab-2019-11-20.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/valer/DriveVero/Politecnico/Elettronica Digitale/VHDL/lab-2019-11-20/lab-2019-11-20.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-2338] Canceling the changes to the IP catalog. Reverting the catalog back to its previous state.
+INFO: [IP_Flow 19-2340] The IP catalog has been returned to its previous state.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 10:23:15 2020...

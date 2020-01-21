@@ -66,37 +66,38 @@ begin
     wr_en => wr_en
   );
 
-  clk <= not clk after 50 ns;
+  clk <= not clk after 20 ns;
 
     drive_reset : process
       begin
         reset <= '1';
-        wait for 100 ns;
+        wait for 20 ns;
         reset <= '0';
         wait;
       end process;
 
     drive_data : process
       begin
-        wait for 100 ns;
-        din <= "00000001";
+        wait for 20 ns;
+        din <= "01001010";
         wr_en <= '1';
-        wait for 100 ns;
+        wait for 40 ns;
         wr_en <= '0';
 
-        din <= "00000010";
+        wait for 40 ns;
+        din <= "00110000";
         wr_en <= '1';
-        wait for 100 ns;
+        wait for 40 ns;
         wr_en <= '0';
 
-        wait for 100 ns;
+        wait for 40 ns;
         rd_en <= '1';
-        wait for 100 ns;
+        wait for 40 ns;
         rd_en <= '0';
         
-        wait for 200 ns;
+        wait for 40 ns;
         rd_en <= '1';
-        wait for 100 ns;
+        wait for 40 ns;
         rd_en <= '0';
 
         wait;
